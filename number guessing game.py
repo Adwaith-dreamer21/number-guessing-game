@@ -10,7 +10,9 @@ while game:
     elif user_input>number:
         user_input=int(input("Try a smaller number: "))
     elif user_input==number:
-        print(f"Yayyy!!\nYou've guessed the number in {times} guesses")
+        print("Congoo!!")
+        print(f"You've guessed the number in {times} guesses")
         game=False
     times+=1
+
 print("Thankyou!")
